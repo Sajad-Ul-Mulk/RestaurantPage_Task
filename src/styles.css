@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
+
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 24px;
+    text-shadow: 4px 4px 4px #aaa;
+    line-height: 1.6;
+    margin: 0;
+    background-image: url('bg.jpg?height=100&width=100');
+    color: white;
+    padding: 0;
+    /*background-color: #f4f4f4;*/
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation styles */
+nav {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1abc9c 3px solid;
+}
+
+nav .logo {
+    float: left;
+    font-size: 2em;
+    margin: 0;
+}
+
+nav .nav-links {
+    float: right;
+    margin-top: 10px;
+}
+
+nav .nav-links li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav .nav-links button {
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links button:hover {
+    color: #1abc9c;
+}
+
+nav .nav-links button.active {
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+/* Hero section styles */
+.hero {
+    /*background-image: url('/placeholder.svg?height=400&width=800');*/
+
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #16a085;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive design */
+@media(max-width: 768px) {
+    nav .logo,
+    nav .nav-links {
+        float: none;
+        text-align: center;
+    }
+
+    nav .nav-links li {
+        padding: 10px;
+        display: block;
+    }
+
+    .hero {
+        height: 300px;
+        padding-top: 50px;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+}
