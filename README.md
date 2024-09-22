@@ -1,0 +1,1 @@
+This is WebPack bundler Based website with basic functionality, consisting of Home, Menu and About Pages. These Pages arn't the static html css pages, But rather Js Files having thier Dom Written in thoses files which are loaded as Modular JS files when they are needed,  
